@@ -13,7 +13,6 @@ let box6 = document.querySelectorAll('.square')[5];
 let box7 = document.querySelectorAll('.square')[6];
 let box8 = document.querySelectorAll('.square')[7];
 let box9 = document.querySelectorAll('.square')[8];
-let ul = document.querySelector(".container-2>ul");
 
 gameBoard.addEventListener("click", function tictactoe(evt) {
     let clickedArea = evt.target;
@@ -54,9 +53,6 @@ gameBoard.addEventListener("click", function tictactoe(evt) {
         h1.innerHTML = `It is a draw!`
         button.style.visibility = "visible";
     }
-    let li = document.createElement("li");
-    ul.appendChild(li);
-    li.innerHTML = `${turns}`
 });
 
 gameBoard.addEventListener("mousemove", function mouseout(evt) {
