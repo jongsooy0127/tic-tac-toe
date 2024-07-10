@@ -1,0 +1,1 @@
+I utilized HTML5, CSS3, and vanilla Javascript to create a simple game of Tic-Tac-Toe. Users can go to (https://jongsooy0127.github.io/tic-tac-toe/Tic-Tac-Toe-game.html) to check out a demo of the game.
